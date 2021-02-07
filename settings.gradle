@@ -1,0 +1,4 @@
+rootProject.name = 'spring-coding'
+include 'email-sender'
+include 'routing-and-filtering'
+

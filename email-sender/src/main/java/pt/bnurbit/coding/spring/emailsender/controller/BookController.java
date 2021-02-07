@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import pt.bnurbit.coding.spring.model.Book;
+import pt.bnurbit.coding.spring.emailsender.model.Book;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import java.util.Map;
 @Slf4j
 public class BookController {
 
-    private static Map<Integer, Book> bookStore = new HashMap<>();
+    private static final Map<Integer, Book> bookStore = new HashMap<>();
 
     static {
         Book book1 = new Book(123, "Alice in Wonderland", "Lewis Carrol");
