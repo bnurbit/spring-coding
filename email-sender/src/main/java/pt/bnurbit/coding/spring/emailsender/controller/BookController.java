@@ -24,7 +24,7 @@ public class BookController {
         bookStore.put(book2.getId(), book2);
     }
 
-    @RequestMapping
+    @RequestMapping(value = "/welcome")
     public String welcome(){
         return "<h2> Welcome to the bookstore! </h2>";
     }

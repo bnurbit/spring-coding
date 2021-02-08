@@ -11,6 +11,7 @@ public class EmailSenderApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmailSenderApplication.class, args);
+		//System.setProperty("spring.config.name", "email-sender");
 	}
 
 }

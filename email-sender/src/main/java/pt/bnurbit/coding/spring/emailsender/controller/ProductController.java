@@ -1,4 +1,4 @@
-package pt.bnurbit.coding.spring.routingandfiltering;
+package pt.bnurbit.coding.spring.emailsender.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

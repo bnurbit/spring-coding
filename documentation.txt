@@ -17,5 +17,12 @@ Zull
 -> JVM-based router and server-side load balancer
 -> developed by Netflix
 
+Security
+-> spring-boot-starter-security automatically adds basic authentication
+    - default: username: user, password: generated - check logs
+    - /login path mapping is added automatically
+
+
+
 
 
