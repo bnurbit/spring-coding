@@ -9,7 +9,23 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class LoginController {
 
     @GetMapping
-    public String getHomePage(){
-        return "homepage";
+    public String getWelcomePage(){
+        return "welcome";
     }
+
+    @GetMapping("/home")
+    public String getHomePage(){
+        return "home";
+    }
+
+    @GetMapping("/admin")
+    public String getAdminPage(){
+        return "admin";
+    }
+
+    @GetMapping("/login")
+    public String getLoginPage(){
+        return "login";
+    }
+
 }
